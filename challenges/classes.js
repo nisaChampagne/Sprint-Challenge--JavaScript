@@ -6,6 +6,11 @@
 //     this.height = attributes.height;
 //   }
 
+
+
+
+///added 1 at the end of CuboidMaker and cuboid to make it work for me since was previously declared in prototypes//
+
 class CuboidMaker1 {
     constructor(props){
         this.length = props.length;
