@@ -76,4 +76,4 @@
 // console.log(cuboid.surfaceArea()); // 130
 
 
-////commented out my code so class.js would work 
+////commented out my code so class.js would work btw
