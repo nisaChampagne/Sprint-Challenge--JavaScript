@@ -30,7 +30,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-*.forEach affects the original array; .map creates a new array and does not affect the original array.*
+*.forEach doesn't return value .map creates a new array and does not have to necessarily return value*
 
 2. What is the difference between a function and a method?
 
