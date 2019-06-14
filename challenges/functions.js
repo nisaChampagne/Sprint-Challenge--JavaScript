@@ -17,9 +17,9 @@ function consume(param1, param2, cb){
   * Create a function named multiply that returns the product of two numbers 
   * Create a function named greeting that accepts a first and last name and returns "Hello first-name last-name, nice to meet you!"
 */
-const add =(num1, num2) => num1 + num2
+const add =(param1, param2) => param1 + param2
 
-const multiply = (num1, num2) => num1 * num2
+const multiply = (param1, param2) => param1 * param2
 
 const greeting = (firstName, lastName) => `Hello ${firstName + ' ' + lastName}, nice to meet you!`
 
@@ -33,7 +33,7 @@ console.log(consume("Mary","Poppins", greeting)); // Hello Mary Poppins, nice to
 
 // Explain in your own words why `nestedfunction()` can access the variable `internal`.
 
-// Explanation: 
+// Explanation: nestedFunction() has closure over internal and is lexical to myFunction scope
 
 
 const external = "I'm outside the function";
