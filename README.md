@@ -30,29 +30,29 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
-.forEach affects the original array; .map creates a new array and does not affect the original array.
+*.forEach affects the original array; .map creates a new array and does not affect the original array.*
 
 2. What is the difference between a function and a method?
 
-A method is a function within an object, and a function has properties and methods like any other object.
+*A method is a function within an object, and a function has properties and methods like any other object.*
 
 3. What is closure?
 
-Closure would be what happens when the function body has access to variables that are defined outside the function body.
+*Closure would be what happens when the function body has access to variables that are defined outside the function body.*
 
 4. Describe the four rules of the 'this' keyword.
 
-1) window.global binding: when the value of "this" will be the window/console
+*1) window.global binding: when the value of "this" will be the window/console*
 
-2) new binding: constructor functions are used with this type of binding. This refers to the specific instance of the object in question that is return by the constructor function.
+*2) new binding: constructor functions are used with this type of binding. This refers to the specific instance of the object in question that is return by the constructor function.*
 
-3) implicit binding: The more common binding for "this". The object before the dot  is "this"
+*3) implicit binding: The more common binding for "this". The object before the dot  is "this"*
 
-4) explicit binding: when JS .call or .apply is used.
+*4) explicit binding: when JS .call or .apply is used.*
 
 5. Why do we need super() in an extended class?
 
-you cannot use extend without a super and vice versa. Super is used to access and call functions on an objects parent and allows for access to all of the arguments and qualities.
+*you cannot use extend without a super and vice versa. Super is used to access and call functions on an objects parent and allows for access to all of the arguments and qualities.*
 
 ## Project Set up
 
